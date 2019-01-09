@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddMedecine"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/medicine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:inputType="text"
+        android:textCursorDrawable="@drawable/curcor"
+        android:background="@drawable/borderblue"
+
+        android:hint="Medicine"
+        android:shadowColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/Sale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:inputType="number"
+        android:textCursorDrawable="@drawable/curcor"
+        android:background="@drawable/border"
+
+        android:hint="Sale"
+        android:shadowColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:inputType="number"
+        android:textCursorDrawable="@drawable/curcor"
+        android:background="@drawable/border"
+
+        android:hint="Price"
+        android:shadowColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+    <EditText
+        android:id="@+id/Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:inputType="number"
+        android:textCursorDrawable="@drawable/curcor"
+        android:background="@drawable/border"
+
+        android:hint="Amount"
+        android:shadowColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+
+
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:onClick="add"
+        android:text="ADD"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
